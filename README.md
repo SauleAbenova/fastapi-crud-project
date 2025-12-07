@@ -34,12 +34,14 @@ fastapi-crud-project/
 ├── exam.db # SQLite 데이터베이스 (자동 생성)
 └── README.md # 프로젝트 설명 문서
 
+
 ---
 
 ## ⚙️ 실행 방법
 
 ### 1️⃣ 필요한 라이브러리 설치
 
+```bash
 pip install fastapi uvicorn sqlalchemy
 
 
