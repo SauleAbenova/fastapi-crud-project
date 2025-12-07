@@ -45,10 +45,18 @@ fastapi-crud-project/
 ```bash
 pip install fastapi uvicorn sqlalchemy
 
+---
+
 2️⃣ 서버 실행
+```bash
 uvicorn main:app --reload
 
+---
+
+```bash
 3️⃣ 브라우저에서 확인
+
+---
 
 Swagger UI 자동 문서화 페이지:
 👉 http://127.0.0.1:8000/docs
