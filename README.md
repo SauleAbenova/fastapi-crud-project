@@ -44,30 +44,31 @@ fastapi-crud-project/
 
 ```bash
 pip install fastapi uvicorn sqlalchemy
-
----
+```
 
 2️⃣ 서버 실행
+
 ```bash
 uvicorn main:app --reload
-
----
+```
 
 ```bash
 3️⃣ 브라우저에서 확인
-
----
+```
 
 Swagger UI 자동 문서화 페이지:
 👉 http://127.0.0.1:8000/docs
 
 🧪 API 사용 예시
 ➕ 데이터 생성 (POST /create)
+```json
 {
   "title": "FastAPI 테스트",
-  "content": "첫 번째 CRUD 아이템입니다!"
+  "content": "내용입니다"
 }
+```
 📄 데이터 조회 (GET /items)
+```json
 [
   {
     "id": 1,
@@ -75,11 +76,14 @@ Swagger UI 자동 문서화 페이지:
     "content": "첫 번째 CRUD 아이템입니다!"
   }
 ]
+```
 ✏️ 데이터 수정 (PUT /update/1)
+```json
 {
   "title": "수정된 제목",
   "content": "수정된 내용입니다."
 }
+```
 ❌ 데이터 삭제 (DELETE /delete/1)
 👩‍🎓 제작자
 
