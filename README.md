@@ -42,6 +42,8 @@ fastapi-crud-project/
 
 ```bash
 pip install fastapi uvicorn sqlalchemy
+
+
 2️⃣ 서버 실행
 uvicorn main:app --reload
 
@@ -60,6 +62,7 @@ POST /create
   "title": "FastAPI 테스트",
   "content": "첫 번째 CRUD 아이템입니다!"
 }
+
 
 📄 전체 데이터 조회
 
