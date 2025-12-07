@@ -40,7 +40,6 @@ fastapi-crud-project/
 
 ### 1️⃣ 필요한 라이브러리 설치
 
-```bash
 pip install fastapi uvicorn sqlalchemy
 
 
